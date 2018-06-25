@@ -1,0 +1,32 @@
+{
+    "profilaxia": {
+        "p1": "PER_01",
+        "p2": "PER_02",
+        "p3": "PER_03",
+        "p4": "PER_10",
+        "p5": "PER_12",
+        "p6": "PER_19"
+    },
+    "depakote": {
+        "p1": "PER_04",
+        "p2": "PER_05",
+        "p3": "PER_11",
+        "p4": "PER_13",
+        "p5": "PER_20"
+    },
+    "diferencas": {
+        "p1": "PER_14",
+        "p2": "PER_15"
+    },
+    "info": {
+        "p1": "PER_06",
+        "p2": "PER_08",
+        "p3": "PER_09",
+        "p4": "PER_16"
+    },
+    "seguranca": {
+        "p1": "PER_07",
+        "p2": "PER_17",
+        "p3": "PER_18"
+    }
+}

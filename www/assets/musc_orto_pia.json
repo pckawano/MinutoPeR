@@ -1,0 +1,32 @@
+{
+    "consideracoes": {
+        "p1": "PER_01",
+        "p2": "PER_02",
+        "p3": "PER_03",
+        "p4": "PER_04"
+        
+    },
+    "abordagem": {
+        "p1": "PER_05",
+        "p2": "PER_06",
+        "p3": "PER_07"
+        
+    },
+    "manejo": {
+        "p1": "PER_08",
+        "p2": "PER_09",
+        "p3": "PER_10",
+        "p4": "PER_11",
+        "p5": "PER_12",
+        "p6": "PER_13"
+    },
+    "principais": {
+        "p1": "PER_14",
+        "p2": "PER_15",
+        "p3": "PER_16",
+        "p4": "PER_17",
+        "p5": "PER_18",
+        "p6": "PER_19",
+        "p7": "PER_20"
+    }
+}

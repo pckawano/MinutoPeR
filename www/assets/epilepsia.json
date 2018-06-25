@@ -1,0 +1,33 @@
+{
+    "epilepsias": {
+        "p1": "PER_03",
+        "p2": "PER_05",
+        "p3": "PER_06",
+        "p4": "PER_04",
+        "p5": "PER_09"
+    },
+    "diferencas": {
+        "p1": "PER_13",
+        "p2": "PER_14",
+        "p3": "PER_12",
+        "p4": "PER_15"
+    },
+    "mulher": {
+        "p1": "PER_10",
+        "p2": "PER_11",
+        "p3": "PER_16",
+        "p4": "PER_18",
+        "p5": "PER_19"
+    },
+    "comorbidades": {
+        "p1": "PER_01",
+        "p2": "PER_02",
+        "p3": "PER_07",
+        "p4": "PER_08"
+    },
+    "seguranca": {
+        "p1": "PER_17",
+        "p2": "PER_20",
+        "p3": "PER_21"
+    }
+}

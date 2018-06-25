@@ -1,0 +1,36 @@
+{
+    "episodios": {
+        "p1": "PER_02",
+        "p2": "PER_03",
+        "p3": "PER_10",
+        "p4": "PER_11",
+        "p5": "PER_13"
+    },
+    "mania": {
+        "p1": "PER_01",
+        "p2": "PER_07",
+        "p3": "PER_09",
+        "p4": "PER_13"
+    },
+    "comorbidades": {
+        "p1": "PER_04",
+        "p2": "PER_05",
+        "p3": "PER_06"
+    },
+    "diferencas": {
+        "p1": "PER_16",
+        "p2": "PER_14",
+        "p3": "PER_15"
+    },
+    "info": {
+        "p1": "PER_08",
+        "p2": "PER_12",
+        "p3": "PER_17"
+    },
+    "seguranca": {
+        "p1": "PER_18",
+        "p2": "PER_19",
+        "p3": "PER_20",
+        "p4": "PER_21"
+    }
+}

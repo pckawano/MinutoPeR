@@ -1,0 +1,462 @@
+@images: "images";
+.page_basic {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+}
+
+.page {
+    .page_basic;
+    background: url(images/bkgnd.png) no-repeat;
+    background-size: 100%;
+}
+
+.page_menu {
+    .page_basic;
+    background: url(images/bkgnd_menu.png) no-repeat;
+    background-size: 100%;
+}
+
+.img_float {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+}
+
+.l_depakote {
+    .img_float;
+    background: url(images/l_depakote.png);
+    height: 83px;
+    left: 369px;
+    top: 96px;
+    width: 286px;
+}
+
+.line_top {
+    .img_float;
+    background: url(images/line_top.png);
+    left: 102px;
+    top: 275px;
+    width: 922px;
+    height: 5px;
+}
+
+.line_bottom {
+    .img_float;
+    background: url(images/line_botton.png);
+    left: 0px;
+    top: 437px;
+    width: 921px;
+    height: 5px;
+}
+
+.l_minuto {
+    .img_float;
+    background: url(images/l_minuto.png);
+    left: 122px;
+    top: 307px;
+    width: 793px;
+    height: 103px;
+}
+
+.l_abbott {
+    .img_float;
+    background: url(images/l_abbott.png);
+    left: 445px;
+    top: 520px;
+    width: 136px;
+    height: 34px;
+}
+
+.btn {
+    .img_float;
+    opacity: 1;
+    transition: opacity 2s;
+    &:hover {
+        opacity: 0.4;
+    }
+}
+
+.btn_iniciar {
+    .btn;
+    background: url(images/btn_iniciar.png);
+    left: 430px;
+    top: 586px;
+    width: 168px;
+    height: 182px;
+}
+
+.l_minuto_menu {
+    .img_float;
+    background: url(images/l_minuto_menu.png);
+    left: 65px;
+    top: 131px;
+    width: 674px;
+    height: 88px;
+}
+
+.btn_tab {
+    .btn;
+    background: url(images/btn_tab.png);
+    left: 60px;
+    top: 266px;
+    width: 286px;
+    height: 300px;
+}
+
+.btn_epilepsia {
+    .btn;
+    background: url(images/btn_epilepsia.png);
+    left: 371px;
+    top: 266px;
+    width: 286px;
+    height: 300px;
+}
+
+.btn_enxaqueca {
+    .btn;
+    background: url(images/btn_enxaqueca.png);
+    left: 682px;
+    top: 266px;
+    width: 286px;
+    height: 300px;
+}
+
+.btn_back {
+    .btn;
+    background: url(images/btn_back.png);
+    left: 0px;
+    top: 15px;
+    width: 114px;
+    height: 84px;
+}
+
+.btn_home {
+    .btn;
+    background: url(images/btn_menu_home.png);
+    left: 0px;
+    top: 678px;
+    width: 119px;
+    height: 84px;
+}
+
+.btn_menu {
+    .img_float;
+    transition: top 1s;
+    &:hover {
+        top: 580px;
+    }
+}
+
+.btn_menu_tab {
+    .btn_menu;
+    background: url(images/btn_menu_tab.png);
+    left: 129px;
+    top: 650px;
+    width: 167px;
+    height: 188px;
+}
+
+.btn_menu_epilepsia {
+    .btn_menu;
+    background: url(images/btn_menu_epilepsia.png);
+    left: 305px;
+    top: 650px;
+    width: 167px;
+    height: 188px;
+}
+
+.btn_menu_enxaqueca {
+    .btn_menu;
+    background: url(images/btn_menu_enxaqueca.png);
+    left: 481px;
+    top: 650px;
+    width: 167px;
+    height: 188px;
+}
+
+.l_abbot_common {
+    .img_float;
+    background: url(images/l_abbott_common.png);
+    left: 884px;
+    top: 38px;
+    width: 102px;
+    height: 26px;
+}
+
+.l_minuto_menu_common {
+    .img_float;
+    background: url(images/l_minuto_menu.png);
+    left: 121px;
+    top: 34px;
+    width: 328px;
+    height: 43px;
+}
+
+.btn_menu_depakote {
+    .btn;
+    background: url(images/btn_menu_depakote.png);
+    left: 824px;
+    top: 692px;
+    height: 50px;
+    width: 171px;
+}
+
+.holder {
+    .page_basic;
+}
+
+// TAB - Menu
+.t_tab {
+    .img_float;
+    background: url(images/t_tab.png);
+    left: 62px;
+    top: 161px;
+    width: 415px;
+    height: 29px;
+}
+
+.btn_tab_episodios {
+    .btn;
+    background: url(images/btn_tab_episodios.png);
+    left: 60px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+
+.btn_tab_mania {
+    .btn;
+    background: url(images/btn_tab_mania.png);
+    left: 371px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+
+.btn_tab_comorbidades {
+    .btn;
+    background: url(images/btn_tab_comorbidades.png);
+    left: 682px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+
+.btn_tab_diferencas {
+    .btn;
+    background: url(images/btn_tab_diferencas.png);
+    left: 60px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+
+.btn_tab_info {
+    .btn;
+    background: url(images/btn_tab_info.png);
+    left: 371px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+
+.btn_tab_seguranca {
+    .btn;
+    background: url(images/btn_tab_seguranca.png);
+    left: 682px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+
+// Epilepsia - Menu
+.t_epilepsia {
+    .img_float;
+    background: url(images/t_epilepsia.png);
+    left: 64px;
+    top: 161px;
+    width: 137px;
+    height: 29px;   
+}
+.btn_epilepsia_epilepsias {
+    .btn;
+    background: url(images/btn_epilepsia_epilepsias.png);
+    left: 216px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+.btn_epilepsia_diferencas {
+    .btn;
+    background: url(images/btn_epilepsia_diferencas.png);
+    left: 527px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+.btn_epilepsia_mulher {
+    .btn;
+    background: url(images/btn_epilepsia_mulher.png);
+    left: 60px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+.btn_epilepsia_comorbidades {
+    .btn;
+    background: url(images/btn_epilepsia_comorbidades.png);
+    left: 371px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+.btn_epilepsia_seguranca {
+    .btn;
+    background: url(images/btn_epilepsia_seguranca.png);
+    left: 682px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+
+// Enxaqueca - Menu
+.t_enxaqueca {
+    .img_float;
+    background: url(images/t_enxaqueca.png);
+    left: 64px;
+    top: 161px;
+    width: 374px;
+    height: 29px;
+}
+.btn_enxaqueca_profilaxia {
+    .btn;
+    background: url(images/btn_enxaqueca_profilaxia.png);
+    left: 215px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+.btn_enxaqueca_depakote {
+    .btn;
+    background: url(images/btn_enxaqueca_depakote.png);
+    left: 527px;
+    top: 242px;
+    width: 286px;
+    height: 144px;
+}
+.btn_enxaqueca_diferencas {
+    .btn;
+    background: url(images/btn_enxaqueca_diferencas.png);
+    left: 60px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+.btn_enxaqueca_info {
+    .btn;
+    background: url(images/btn_enxaqueca_info.png);
+    left: 371px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+.btn_enxaqueca_seguranca {
+    .btn;
+    background: url(images/btn_enxaqueca_seguranca.png);
+    left: 682px;
+    top: 411px;
+    width: 286px;
+    height: 144px;
+}
+
+
+
+// Automate Pages
+.t {
+    .img_float;
+    background-size: contain !important;
+    left: 60px;
+    top: 118px;
+    width: 964px;
+    height: 60px;
+}
+
+.h_questions {
+    .img_float;
+    width: 2048px;
+    height: 450px;
+    left: 0px;
+    top: 204px;
+    padding-left: 60px;
+}
+
+.btn_anterior {
+    .btn;
+    background: url(images/btn_anterior.png);
+    left: 0px;
+    top: 352px;
+    width: 108px;
+    height: 84px;
+    display: none;
+}
+
+.btn_proxima {
+    .btn;
+    background: url(images/btn_proxima.png);
+    left: 917px;
+    top: 352px;
+    width: 107px;
+    height: 84px;
+    display: none;
+}
+
+.btn_p {
+    background: #fff;
+    background-size: 100% !important;
+    width: 442px;
+    height: 186px;
+    display: inline-block;
+    margin-bottom: 11px;
+    margin-right: 25px;
+    opacity: 1;
+    transition: opacity 2s;
+    &:hover {
+        opacity: 0.4;
+    }
+    clear: right;
+}
+.close {
+    .img_float;
+    background: url(images/close.png);
+    background-size: contain;
+    left: 976px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+    cursor: pointer;
+}
+.popUp_video {
+    .img_float;
+    background: #000000;
+    width: 1024px;
+    height: 768px;
+    left: 0;
+    top: 0;
+    display: none;
+}
+video {
+}
+
+
+// Bula
+.p_bula {
+    .img_float;
+    background: url(images/p_bula.png);
+    left: 60px;
+    top: 38px;
+    width: 906px;
+    height: 673px;
+}

@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=2">
+    
+    <meta name="apple-mobile-web-app-title" content="Minuto P&amp;R" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+    <title>Minuto | Perguntas &amp; Respostas</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+    <!-- Include the jQuery library -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="js/script.js"></script>
+    
+    
+    <!-- Codorva Header-->
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+
+    <style>
+        /* following two viewport lines are equivalent to the meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }  @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }           @viewport { user-zoom: fixed ; }
+    </style>
+
+    <script src="cordova.js"></script>          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <script src="js/app.js"></script>           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <script src="xdk/init-dev.js"></script>     <!-- normalizes device and document ready events, see README for details -->
+
+</head>
+
+<body class="animated fadeIn">
+
+    <div id="p_start" class="page" data-role="page">
+        <div data-role="main" class="ui-content">
+           
+            <div class="line_top animated fadeInRightBig delay02"></div>
+            <div class="l_minuto animated bounceIn delay10"></div>
+            <div class="line_bottom animated fadeInLeftBig delay02"></div>
+            <div class="l_abbott animated fadeIn delay15"></div>
+            <div class="btn_iniciar animated fadeInUp delay20"></div>
+        </div>
+    </div>
+	<div id="p_menu" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+          
+			<div class="l_minuto_menu animated fadeInLeft"></div>
+            <div class="btn_lnen animated fadeInUp delay05"></div>
+            <div class="btn_lnfe animated fadeInUp delay10"></div>
+            <div class="btn_snc animated fadeInUp delay15"></div>
+            <div class="btn_musc animated fadeInUp delay20"></div>
+            <div class="btn_musc_reu animated fadeInUp delay20"></div>
+            <div class="btn_musc_ort animated fadeInUp delay20"></div>
+            <div class="btn_menu_bula"></div>
+            <div class="l_abbot_common"></div>
+            <div class="btn_back"></div>
+            <div class="btn_home"></div>
+           
+            <div class="btn_menu_lnen"></div>
+            <div class="btn_menu_lnfe"></div>
+            <div class="btn_menu_snc"></div>
+			<div class="btn_menu_musc"></div>
+        </div>
+    </div>
+	
+	<!-- Musco Reumatismo -->
+	
+	<div id="p_menu_reumatismo" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+           
+			
+            <div class="btn_reu animated fadeInUp delay05"></div>
+            <div class="l_reu_pia animated fadeInUp delay10"></div>
+            <div class="l_reu_calc animated fadeInUp delay15"></div>
+			
+			
+            <div class="l_abbot_common"></div>
+            <div class="btn_back"></div>
+            <div class="btn_home"></div>
+           
+            <div class="btn_menu_reu_pia"></div>
+            <div class="btn_menu_reu_calc"></div>
+            
+        </div>
+    </div>
+    
+    <div id="p_menu_musc_pia" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+
+
+            <div class="btn_back"></div>
+            <div class="t_musc"></div>
+			<div class="btn_consideracoes_reu_pia"></div>
+            <div class="btn_abordagem_reu_pia"></div>
+            <div class="btn_manejo_reu_pia"></div>
+            <div class="btn_principais_reu_pia"></div>
+
+            <div class="l_abbot_common"></div>
+            
+            <div class="btn_home"></div>
+           
+            <div class="btn_menu_reu_pia"></div>
+            <div class="btn_menu_reu_calc"></div>
+        </div>
+    </div>
+
+   <div id="p_menu_musc_calc" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+
+            
+            <div class="btn_back"></div>
+            <div class="t_musc"></div>
+			<div class="btn_longevidade_reu_calc"></div>
+            <div class="btn_metabolismo_reu_calc"></div>
+            <div class="btn_estrategias_reu_calc"></div>
+            <div class="btn_riscos_reu_calc"></div>
+
+            <div class="l_abbot_common"></div>
+            
+            <div class="btn_home"></div>
+           
+            <div class="btn_menu_reu_pia"></div>
+            <div class="btn_menu_reu_calc"></div>
+        </div>
+    </div>
+
+
+	
+    <!-- Musco Ortopedia-->
+    
+    <div id="p_menu_ortopedia" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+            
+			
+            <div class="btn_orto animated fadeInUp delay05"></div>
+            <div class="l_orto_pia animated fadeInUp delay10"></div>
+            <div class="l_orto_calc animated fadeInUp delay15"></div>
+			
+			
+            <div class="l_abbot_common"></div>
+            <div class="btn_back"></div>
+            <div class="btn_home"></div>
+           
+            <div class="btn_menu_orto_pia"></div>
+            <div class="btn_menu_orto_calc"></div>
+        </div>
+    </div>
+    
+
+    <div id="p_menu_orto_musc_pia" class="page_menu" data-role="page">
+            <div data-role="main" class="ui-content">
+    
+    
+                <div class="btn_back"></div>
+                <div class="t_musc"></div>
+                <div class="btn_consideracoes_orto_pia"></div>
+                <div class="btn_abordagem_orto_pia"></div>
+                <div class="btn_manejo_orto_pia"></div>
+                <div class="btn_principais_orto_pia"></div>
+    
+                <div class="l_abbot_common"></div>
+                
+                <div class="btn_home"></div>
+               
+                <div class="btn_menu_orto_pia"></div>
+                <div class="btn_menu_orto_calc"></div>
+            </div>
+        </div>
+    
+       <div id="p_menu_orto_musc_calc" class="page_menu" data-role="page">
+            <div data-role="main" class="ui-content">
+    
+                
+                <div class="btn_back"></div>
+                <div class="t_musc"></div>
+                <div class="btn_longevidade_orto_calc"></div>
+                <div class="btn_metabolismo_orto_calc"></div>
+                <div class="btn_estrategias_orto_calc"></div>
+                <div class="btn_riscos_orto_calc"></div>
+    
+                <div class="l_abbot_common"></div>
+                
+                <div class="btn_home"></div>
+               
+                <div class="btn_menu_orto_pia"></div>
+                <div class="btn_menu_orto_calc"></div>
+            </div>
+        </div>
+
+
+	<!-- Depakote-SNC -->
+	
+    <div id="p_menu_depakote" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+            <div class="l_minuto_menu animated fadeInLeft"></div>
+            <div class="btn_tab animated fadeInUp delay05"></div>
+            <div class="btn_epilepsia animated fadeInUp delay10"></div>
+            <div class="btn_enxaqueca animated fadeInUp delay15"></div>
+			<div class="btn_home"></div>
+            
+			<div class="l_abbot_common2"></div>
+            <div class="btn_back"></div>
+            
+            <div class="btn_menu_depakote"></div>
+
+            <div class="btn_menu_tab"></div>
+            <div class="btn_menu_epilepsia"></div>
+            <div class="btn_menu_enxaqueca"></div>
+        </div>
+    </div>
+    <!-- TAB -->
+    <div id="p_tab_menu" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+			<div class="btn_back"></div>
+            <div class="t_tab"></div>
+
+            <div class="btn_tab_episodios"></div>
+            <div class="btn_tab_mania"></div>
+            <div class="btn_tab_comorbidades"></div>
+            <div class="btn_tab_diferencas"></div>
+            <div class="btn_tab_info"></div>
+            <div class="btn_tab_seguranca"></div>
+
+            <div class="footer"></div>
+        </div>
+    </div>
+    <!-- Epilepsia -->
+    <div id="p_epilepsia_menu" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+			<div class="btn_back"></div>
+            <div class="t_epilepsia"></div>
+
+            <div class="btn_epilepsia_epilepsias"></div>
+            <div class="btn_epilepsia_diferencas"></div>
+            <div class="btn_epilepsia_mulher"></div>
+            <div class="btn_epilepsia_comorbidades"></div>
+            <div class="btn_epilepsia_seguranca"></div>
+
+            <div class="footer"></div>
+        </div>
+    </div>
+    <!-- Enxaqueca -->
+    <div id="p_enxaqueca_menu" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+			<div class="btn_back"></div>
+            <div class="t_enxaqueca"></div>
+
+            <div class="btn_enxaqueca_profilaxia"></div>
+            <div class="btn_enxaqueca_depakote"></div>
+            <div class="btn_enxaqueca_diferencas"></div>
+            <div class="btn_enxaqueca_info"></div>
+            <div class="btn_enxaqueca_seguranca"></div>
+
+            <div class="footer"></div>
+        </div>
+    </div>
+    <div id="p" class="page_menu" data-role="page">
+        <div data-role="main" class="ui-content">
+			
+            <div class="t"></div>
+
+            <div class="h_questions animated fadeIn"></div>
+
+            <div class="btn_anterior"></div>
+            <div class="btn_proxima"></div>
+
+            <div class="footer"></div>
+
+            <div class="popUp_video animated fadeIn">
+                <video id="videomp4" controls width="1024" height="768">
+                    <source id="mp4" src="" type="video/mp4" />
+                </video>
+                <div class="close animated fadeIn" data-prevent-tap="true"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Bulas -->
+
+
+    <div id="p_bula" class="page" data-role="page">
+        <div data-role="main" class="ui-content">
+                
+                <div class="t_bula"></div>
+                <div class="l_depakote_bula animated fadeInUp delay05"></div>
+                <div class="l_piascledine animated fadeInUp delay10"></div>
+                <div class="l_calcitotal animated fadeInUp delay15"></div>
+                <div class="btn_back"></div>
+                <div class="btn_home"></div>
+        </div>
+    </div>
+
+
+    <div id="p_bula_piascledine" class="page" data-role="page">
+            <div data-role="main" class="ui-content">
+                <div class="p_bula_piascledine animated fadeIn"></div>
+                <div class="btn_back"></div>
+                <div class="btn_home"></div>
+            </div>
+    </div>
+        
+    <div id="p_bula_calcitotal" class="page" data-role="page">
+                <div data-role="main" class="ui-content">
+                    <div class="p_bula_calcitotal animated fadeIn"></div>
+                    <div class="btn_back"></div>
+                    <div class="btn_home"></div>
+        
+                    
+                </div>
+    </div>
+           
+    <div id="p_bula_depakote" class="page" data-role="page">
+                    <div data-role="main" class="ui-content">
+                        <div class="p_bula_depakote animated fadeIn"></div>
+                        <div class="btn_back"></div>
+                        <div class="btn_home"></div>
+                    </div>
+    </div>
+
+</body>
+
+</html>

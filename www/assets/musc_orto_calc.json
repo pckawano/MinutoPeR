@@ -1,0 +1,27 @@
+musc_orto_calc = {
+    "longevidade": {
+        "p1": "PER_01",
+        "p2": "PER_02",
+        "p3": "PER_03"
+        
+    },
+    "metabolismo": {
+        "p1": "PER_04",
+        "p2": "PER_05",
+        "p3": "PER_06"
+        
+    },
+    "estrategias": {
+        "p1": "PER_07",
+        "p2": "PER_08",
+        "p3": "PER_09",
+        "p4": "PER_10",
+        "p5": "PER_11",
+        "p6": "PER_12"
+    },
+    "riscos": {
+        "p1": "PER_13",
+        "p2": "PER_14",
+        "p3": "PER_15"
+    }
+}
