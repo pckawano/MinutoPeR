@@ -25,13 +25,13 @@
   display: block;
   position: absolute;
   background: url(images/btn_menu_bula.png);
-  left: 910px;
-  top: 10px;
+  left: 880px;
+  top: -15px;
   width: 84px;
   height: 114px;
 }
 .btn_menu_bula:hover {
-   top: 30px;
+  opacity: 0.6;
   }
 
   .t_bula {
@@ -1440,7 +1440,7 @@
   position: absolute;
   background: url(images/p_bula_calcitotal.png);
   left: 60px;
-  top: 100px;
+  top: 38px;
   width: 906px;
   height: 673px;
 }
