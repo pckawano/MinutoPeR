@@ -60,16 +60,14 @@ $(document).ready(function () {
             "p2": "PER_08",
             "p3": "PER_09",
             "p4": "PER_10",
-            "p5": "PER_11",
-            "p6": "PER_12"
+            "p5": "PER_11"
+            
         },
         "riscos": {
-            "p1": "PER_13",
-            "p2": "PER_14",
-            "p3": "PER_15",
-            "p4": "PER_16",
-            "p5": "PER_17",
-            "p6": "PER_18"
+            "p1": "PER_12",
+            "p2": "PER_13",
+            "p3": "PER_14"
+            
         },
     };
 
