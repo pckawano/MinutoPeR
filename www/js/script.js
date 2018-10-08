@@ -7,8 +7,9 @@ $(document).ready(function () {
     "use strict";
 
     //Variables
-    var theme, subject, subjectObj, btnURL, p, i, classBtn, musc_orto_pia, musc_pia, musc_orto_calc, musc_calc, tab, epilepsia, enxaqueca, path, video = [0, 0, 0, 0, 0, 0, 0];
-
+    var theme, subject, subjectObj, btnURL, p, i, classBtn, musc_orto_pia, musc_pia, musc_orto_calc, musc_calc, tab, epilepsia, endocardio, enxaqueca, path, video = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  
+    
 
 
     musc_pia = {
@@ -235,7 +236,68 @@ $(document).ready(function () {
             "p3": "PER_18"
         }
     };
-    path = "videos/";
+
+    endocardio = {
+        "lobeat": {
+            "p1": "PER_01",
+            "p2": "PER_02",
+            "p3": "PER_03",
+            "p4": "PER_04",
+            "p5": "PER_05",
+            "p6": "PER_06",
+            "p7": "PER_07",
+            "p8": "PER_08",
+            "p9": "PER_09",
+            "p10": "PER_10"
+        },
+        "ritmonorm": {
+            "p1": "PER_11",
+            "p2": "PER_12",
+            "p3": "PER_13",
+            "p4": "PER_14",
+            "p5": "PER_15",
+            "p6": "PER_16"
+            
+        },
+        "lipidil": {
+            "p1": "PER_17",
+            "p2": "PER_18",
+            "p3": "PER_19",
+            "p4": "PER_20",
+            "p5": "PER_21",
+            "p6": "PER_22",
+            "p7": "PER_23",
+            "p8": "PER_24",
+            "p9": "PER_25",
+            "p10": "PER_26"
+        },
+        "duplostat": {
+            "p1": "PER_27",
+            "p2": "PER_28",
+            "p3": "PER_29",
+            "p4": "PER_30",
+            "p5": "PER_31",
+            "p6": "PER_32",
+            "p7": "PER_33"
+        },
+
+        "synthroid": {
+            "p1": "PER_34",
+            "p2": "PER_35",
+            "p3": "PER_36",
+            "p4": "PER_37",
+            "p5": "PER_38",
+            "p6": "PER_39",
+            "p7": "PER_40",
+            "p8": "PER_41",
+            "p9": "PER_42",
+            "p10": "PER_43",
+            "p11": "PER_44"
+        },
+    };
+
+
+       path = "videos/";
 
     //Setup
     
@@ -271,6 +333,7 @@ $(document).ready(function () {
             video[i - 1] = path + theme + "/" + subjectObj[Object.keys(subjectObj)[i - 1]] + ".mp4";
             classBtn = "btn_p btn_p" + i;
             btnURL = "url(css/images/btn_" + theme + "_" + subject + "_p" + i + ".png)";
+            $(".btn_anterior").hide();
 
             if (i % 2 === 1) {
                 $("<div class='" + classBtn + "'></div>").appendTo(".h_questions").css("background", btnURL);
@@ -323,6 +386,10 @@ $(document).ready(function () {
 	$(document).on("tap", ".btn_musc_ort", function () {
         $.mobile.navigate("#p_menu_ortopedia");
     });
+
+    $(document).on("tap", ".btn_lnen", function () {
+        $.mobile.navigate("#p_menu_endocardio");
+    });
 		
     $(document).on("tap", ".btn_menu_depakote", function () {
         $.mobile.navigate("#p_bula_depakote");
@@ -342,7 +409,27 @@ $(document).ready(function () {
         $.mobile.navigate("#p_bula_calcitotal");
     });
 
+    $(document).on("tap", ".l_lobeat", function () {
+        $.mobile.navigate("#p_bula_lobeat");
+    });
 
+    $(document).on("tap", ".l_lipidil", function () {
+        $.mobile.navigate("#p_bula_lipidil");
+    });
+
+    $(document).on("tap", ".l_duplostat", function () {
+        $.mobile.navigate("#p_bula_duplostat");
+    });
+
+    $(document).on("tap", ".l_ritmonorm", function () {
+        $.mobile.navigate("#p_bula_ritmonorm");
+    });
+
+    $(document).on("tap", ".l_synthroid", function () {
+        $.mobile.navigate("#p_bula_synthroid");
+    });
+
+ 
 
     $(document).on("tap", ".btn_tab, .btn_menu_tab", function () {
         $.mobile.navigate("#p_tab_menu");
@@ -353,22 +440,27 @@ $(document).ready(function () {
     $(document).on("tap", ".btn_enxaqueca, .btn_menu_enxaqueca", function () {
         $.mobile.navigate("#p_enxaqueca_menu");
     });
+
+    
+  
     $(document).on("tap", ".btn_proxima", function () {
-        $(".h_questions").animate({
-            left: '-1024px'
-        }, "swing", function () {
-            $(".btn_proxima").fadeOut();
+        
+        $(".h_questions").animate({"left": "-=1024"}, "swing");
+                       
             $(".btn_anterior").fadeIn();
-        });
     });
+
+    
     $(document).on("tap", ".btn_anterior", function () {
-        $(".h_questions").animate({
-            left: '0px'
-        }, "swing", function () {
+        
+        $(".h_questions").animate({"left": "+=1024"}, "swing");
+
             $(".btn_proxima").fadeIn();
-            $(".btn_anterior").fadeOut();
-        });
+           
+       
     });
+
+  
 
     // Reu
 
@@ -389,6 +481,8 @@ $(document).ready(function () {
     $(document).on("tap", ".btn_menu_orto_calc, .l_orto_calc", function () {
     $.mobile.navigate("#p_menu_orto_musc_calc");
     });
+
+
 
     //musc_pia
 
@@ -444,6 +538,8 @@ $(document).ready(function () {
     $(document).on("tap", ".btn_principais_orto_pia", function () {
         drawButtons("musc_orto_pia","principais", musc_orto_pia.principais);
     });
+
+
 
 
      //musc_orto_calc
@@ -537,6 +633,50 @@ $(document).ready(function () {
         drawButtons("enxaqueca", "seguranca", enxaqueca.seguranca);
     });
 
+
+    // Endocardio
+
+    $(document).on("tap", ".btn_endo_lobeat", function () {
+        drawButtons("endocardio","lobeat", endocardio.lobeat);
+    });
+
+    $(document).on("tap", ".btn_menu_lobeat", function () {
+        drawButtons("endocardio","lobeat", endocardio.lobeat);
+    });
+
+    $(document).on("tap", ".btn_endo_lipidil", function () {
+        drawButtons("endocardio","lipidil", endocardio.lipidil);
+    });
+
+    $(document).on("tap", ".btn_menu_lipidil", function () {
+        drawButtons("endocardio","lipidil", endocardio.lipidil);
+    });
+
+    $(document).on("tap", ".btn_endo_duplostat", function () {
+        drawButtons("endocardio","duplostat", endocardio.duplostat);
+    });
+
+    $(document).on("tap", ".btn_menu_duplostat", function () {
+        drawButtons("endocardio","duplostat", endocardio.duplostat);
+    });
+
+    $(document).on("tap", ".btn_endo_ritmonorm", function () {
+        drawButtons("endocardio","ritmonorm", endocardio.ritmonorm);
+    });
+
+    $(document).on("tap", ".btn_menu_ritmonorm", function () {
+        drawButtons("endocardio","ritmonorm", endocardio.ritmonorm);
+    });
+
+    $(document).on("tap", ".btn_endo_synthroid", function () {
+        drawButtons("endocardio","synthroid", endocardio.synthroid);
+    });
+
+    $(document).on("tap", ".btn_menu_synthroid", function () {
+        drawButtons("endocardio","synthroid", endocardio.synthroid);
+    });
+
+
     // Video
 
     $(document).on("tap", ".btn_p1", function () {
@@ -566,6 +706,21 @@ $(document).ready(function () {
     $(document).on("tap", ".btn_p7", function () {
         console.log(video[6]);
         popup(video[6]);
+    });
+
+    $(document).on("tap", ".btn_p8", function () {
+        console.log(video[7]);
+        popup(video[7]);
+    });
+
+    $(document).on("tap", ".btn_p9", function () {
+        console.log(video[8]);
+        popup(video[8]);
+    });
+
+    $(document).on("tap", ".btn_p10", function () {
+        console.log(video[9]);
+        popup(video[9]);
     });
 
     $("#videomp4").on("ended", function () {
