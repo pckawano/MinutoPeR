@@ -56,7 +56,11 @@
     transition: opacity 2s;
     background: url(images/l_reu_pia.png);
     left: 325px;
+<<<<<<< HEAD
     top: 240px;
+=======
+    top: 290px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 210px;
     height: 157px;
     
@@ -74,7 +78,11 @@
     transition: opacity 2s;
     background: url(images/l_reu_calc.png);
     left: 549px;
+<<<<<<< HEAD
     top: 236px;
+=======
+    top: 286px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 210px;
     height: 157px;
     
@@ -92,7 +100,11 @@
     transition: opacity 2s;
     background: url(images/l_depakote.png);
     left: 90px;
+<<<<<<< HEAD
     top: 245px;
+=======
+    top: 295px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 210px;
     height: 157px;
     
@@ -110,7 +122,11 @@
     transition: opacity 2s;
     background: url(images/l_lobeat.png);
     left: 90px;
+<<<<<<< HEAD
     top: 330px;
+=======
+    top: 380px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 190px;
     height: 142px;
     
@@ -128,7 +144,11 @@
     transition: opacity 2s;
     background: url(images/l_lipidil.png);
     left: 332px;
+<<<<<<< HEAD
     top: 330px;
+=======
+    top: 380px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 190px;
     height: 142px;
     
@@ -147,7 +167,11 @@
     transition: opacity 2s;
     background: url(images/l_duplostat.png);
     left: 550px;
+<<<<<<< HEAD
     top: 345px;
+=======
+    top: 395px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 230px;
     height: 172px;
     
@@ -165,7 +189,11 @@
     transition: opacity 2s;
     background: url(images/l_synthroid.png);
     left: 87px;
+<<<<<<< HEAD
     top: 455px;
+=======
+    top: 505px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 200px;
     height: 150px;
     
@@ -183,7 +211,11 @@
     transition: opacity 2s;
     background: url(images/l_ritmonorm.png);
     left: 320px;
+<<<<<<< HEAD
     top: 435px;
+=======
+    top: 485px;
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
     width: 230px;
     height: 172px;
     
@@ -701,6 +733,7 @@
     opacity: 0.4;
   }
 
+<<<<<<< HEAD
   .l_hyalufem_bula {
     background-size: 100% !important;
     background-repeat: no-repeat !important;
@@ -721,6 +754,8 @@
 
 
 
+=======
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
 
   .l_duphaston {
     background-size: 100% !important;
@@ -795,6 +830,7 @@
   }
 
 
+<<<<<<< HEAD
   .l_duphaston_bula {
     background-size: 100% !important;
     background-repeat: no-repeat !important;
@@ -816,6 +852,8 @@
 
 
 
+=======
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
 
   .l_zafolat {
     background-size: 100% !important;
@@ -890,6 +928,7 @@
   }
 
 
+<<<<<<< HEAD
   .l_zafolat_bula {
     background-size: 100% !important;
     background-repeat: no-repeat !important;
@@ -909,6 +948,8 @@
   }
 
 
+=======
+>>>>>>> ebc798fc2332924caadf21ecbf005fbe3a19ee20
 .t_musc {
   background-size: 100% !important;
   background-repeat: no-repeat !important;
