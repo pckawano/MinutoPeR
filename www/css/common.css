@@ -56,7 +56,7 @@
     transition: opacity 2s;
     background: url(images/l_reu_pia.png);
     left: 325px;
-    top: 300px;
+    top: 240px;
     width: 210px;
     height: 157px;
     
@@ -74,7 +74,7 @@
     transition: opacity 2s;
     background: url(images/l_reu_calc.png);
     left: 549px;
-    top: 296px;
+    top: 236px;
     width: 210px;
     height: 157px;
     
@@ -92,7 +92,7 @@
     transition: opacity 2s;
     background: url(images/l_depakote.png);
     left: 90px;
-    top: 305px;
+    top: 245px;
     width: 210px;
     height: 157px;
     
@@ -101,6 +101,96 @@
     opacity: 0.4;
   }
 
+  .l_lobeat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_lobeat.png);
+    left: 90px;
+    top: 330px;
+    width: 190px;
+    height: 142px;
+    
+  }
+  .l_lobeat:hover {
+    opacity: 0.4;
+  }
+ 
+  .l_lipidil {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_lipidil.png);
+    left: 332px;
+    top: 330px;
+    width: 190px;
+    height: 142px;
+    
+  }
+  .l_lipidil:hover {
+    opacity: 0.4;
+  }
+  
+  
+  .l_duplostat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_duplostat.png);
+    left: 550px;
+    top: 345px;
+    width: 230px;
+    height: 172px;
+    
+  }
+  .l_duplostat:hover {
+    opacity: 0.4;
+  }
+
+  .l_synthroid {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_synthroid.png);
+    left: 87px;
+    top: 455px;
+    width: 200px;
+    height: 150px;
+    
+  }
+  .l_synthroid:hover {
+    opacity: 0.4;
+  }
+
+  .l_ritmonorm {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_ritmonorm.png);
+    left: 320px;
+    top: 435px;
+    width: 230px;
+    height: 172px;
+    
+  }
+  .l_ritmonorm:hover {
+    opacity: 0.4;
+  }
 
 
 .btn_menu_lnen {
@@ -198,6 +288,25 @@
 .btn_lnfe:hover {
   opacity: 0.4;
 }
+
+.btn_lnfe2 {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_lnfe.png);
+    left: 35px;
+  top: 266px;
+    width: 240px;
+    height: 187px;
+    
+  }
+  .btn_lnfe2:hover {
+    opacity: 0.4;
+  }
+
 .btn_snc {
   background-size: 100% !important;
   background-repeat: no-repeat !important;
@@ -258,6 +367,9 @@
   width: 120px;
   height: 187px;
 }
+
+
+
 
 /* Reumato e Ortopedia */
 
@@ -343,6 +455,459 @@
 .l_reu_calc:hover {
   opacity: 0.4;
 }
+
+.btn_endo_lobeat {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 2s;
+  background: url(images/l_lobeat.png);
+  left: 290px;
+  top: 300px;
+  width: 180px;
+  height: 135px;
+  
+}
+.btn_endo_lobeat:hover {
+  opacity: 0.4;
+}
+
+.btn_endo_lipidil {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 2s;
+  background: url(images/l_lipidil.png);
+  left: 520px;
+  top: 300px;
+  width: 190px;
+  height: 142px;;
+  
+}
+.btn_endo_lipidil:hover {
+  opacity: 0.4;
+}
+
+.btn_endo_duplostat {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 2s;
+  background: url(images/l_duplostat.png);
+  left: 765px;
+  top: 320px;
+  width: 250px;
+  height: 187px;;
+  
+}
+.btn_endo_duplostat:hover {
+  opacity: 0.4;
+}
+
+.btn_endo_ritmonorm {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 2s;
+  background: url(images/l_ritmonorm.png);
+  left: 380px;
+  top: 430px;
+  width: 250px;
+  height: 187px;;
+  
+}
+.btn_endo_ritmonorm:hover {
+  opacity: 0.4;
+}
+
+.btn_endo_synthroid {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 2s;
+  background: url(images/l_synthroid.png);
+  left: 680px;
+  top: 455px;
+  width: 200px;
+  height: 150px;;
+  
+}
+.btn_endo_synthroid:hover {
+  opacity: 0.4;
+}
+
+.btn_menu_lobeat {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  transition: top 1s;
+  background: url(images/btn_menu_lobeat.png);
+  left: 129px;
+  top: 650px;
+  width: 167px;
+  height: 188px;
+}
+.btn_menu_lobeat:hover {
+  top: 580px;
+}
+.btn_menu_lipidil {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  transition: top 1s;
+  background: url(images/btn_menu_lipidil.png);
+  left: 275px;
+  top: 650px;
+  width: 167px;
+  height: 188px;
+}
+.btn_menu_lipidil:hover {
+  top: 580px;
+}
+
+.btn_menu_duplostat {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  transition: top 1s;
+  background: url(images/btn_menu_duplostat.png);
+  left: 420px;
+  top: 650px;
+  width: 167px;
+  height: 188px;
+}
+.btn_menu_duplostat:hover {
+  top: 580px;
+}
+
+.btn_menu_ritmonorm {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  transition: top 1s;
+  background: url(images/btn_menu_ritmonorm.png);
+  left: 565px;
+  top: 650px;
+  width: 167px;
+  height: 188px;
+}
+.btn_menu_ritmonorm:hover {
+  top: 580px;
+}
+
+.btn_menu_synthroid {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  transition: top 1s;
+  background: url(images/btn_menu_synthroid.png);
+  left: 710px;
+  top: 650px;
+  width: 167px;
+  height: 188px;
+}
+.btn_menu_synthroid:hover {
+  top: 580px;
+}
+
+
+
+/* Linha Feminina */
+
+.l_hyalufem {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_hyalufem.png);
+    left: 390px;
+    top: 185px;
+    width: 230px;
+    height: 172px;
+    
+  }
+  .l_hyalufem:hover {
+    opacity: 0.4;
+  }
+
+  .l_menu_hyalufem {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_hyalufem.png);
+    left: 320px;
+    top:  295px;
+    width: 230px;
+    height: 172px;
+    
+  }
+  .l_menu_hyalufem:hover {
+    opacity: 0.4;
+  }
+
+  .btn_lnfe_hyalufem {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_perguntas.png);
+    left: 240px;
+    top: 400px;
+    width: 260px;
+    height: 67px;
+    
+  }
+  .btn_lnfe_hyalufem:hover {
+    opacity: 0.4;
+  }
+
+  .btn_lnfe_aulahyalufem {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_aula.png);
+    left: 520px;
+    top: 400px;
+    width: 260px;
+    height: 67px;
+    
+  }
+  .btn_lnfe_aulahyalufem:hover {
+    opacity: 0.4;
+  }
+
+  .l_hyalufem_bula {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_hyalufem.png);
+    left: 85px;
+    top: 540px;
+    width: 180px;
+    height: 115px;
+    
+  }
+  .l_hyalufem_bula:hover {
+    opacity: 0.4;
+  }
+
+
+
+
+  .l_duphaston {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_duphaston.png);
+    left: 360px;
+    top: 185px;
+    width: 285px;
+    height: 152px;
+    
+  }
+  .l_duphaston:hover {
+    opacity: 0.4;
+  }
+
+  .l_menu_duphaston {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_duphaston.png);
+    left: 600px;
+    top:  266px;
+    width: 230px;
+    height: 172px;
+    
+  }
+  .l_menu_duphaston:hover {
+    opacity: 0.4;
+  }
+
+  .btn_lnfe_duphaston {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_perguntas.png);
+    left: 240px;
+    top: 400px;
+    width: 260px;
+    height: 67px;
+    
+  }
+  .btn_lnfe_duphaston:hover {
+    opacity: 0.4;
+  }
+
+  .btn_lnfe_auladuphaston {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_aula.png);
+    left: 520px;
+    top: 400px;
+    width: 260px;
+    height: 67px;
+    
+  }
+  .btn_lnfe_auladuphaston:hover {
+    opacity: 0.4;
+  }
+
+
+  .l_duphaston_bula {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_duphaston.png);
+    left: 320px;
+    top: 530px;
+    width: 195px;
+    height: 104px;
+    
+  }
+  .l_duphaston_bula:hover {
+    opacity: 0.4;
+  }
+
+
+
+
+
+  .l_zafolat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_zafolat.png);
+    left: 350px;
+    top: 240px;
+    width: 330px;
+    height: 73px;
+    
+  }
+  .l_zafolat:hover {
+    opacity: 0.4;
+  }
+
+  .l_menu_zafolat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_zafolat.png);
+    left: 480px;
+    top:  466px;
+    width: 290px;
+    height: 64px;
+    
+  }
+  .l_menu_zafolat:hover {
+    opacity: 0.4;
+  }
+
+  .btn_lnfe_zafolat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_perguntas.png);
+    left: 240px;
+    top: 400px;
+    width: 260px;
+    height: 67px;
+    
+  }
+  .btn_lnfe_zafolat:hover {
+    opacity: 0.4;
+  }
+
+  .btn_lnfe_aulazafolat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/btn_aula.png);
+    left: 520px;
+    top: 400px;
+    width: 260px;
+    height: 67px;
+    
+  }
+  .btn_lnfe_aulazafolat:hover {
+    opacity: 0.4;
+  }
+
+
+  .l_zafolat_bula {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 2s;
+    background: url(images/l_zafolat.png);
+    left: 555px;
+    top: 475px;
+    width: 220px;
+    height: 57px;
+    
+  }
+  .l_zafolat_bula:hover {
+    opacity: 0.4;
+  }
+
 
 .t_musc {
   background-size: 100% !important;
@@ -1339,6 +1904,7 @@
 .btn_anterior:hover {
   opacity: 0.4;
 }
+
 .btn_proxima {
   background-size: 100% !important;
   background-repeat: no-repeat !important;
@@ -1356,6 +1922,7 @@
 .btn_proxima:hover {
   opacity: 0.4;
 }
+
 .btn_p {
   background: #fff;
   background-size: 100% !important;
@@ -1445,6 +2012,102 @@
   height: 673px;
 }
 
+.p_bula_lobeat {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  background: url(images/p_bula_lobeat.png);
+  left: 60px;
+  top: 38px;
+  width: 906px;
+  height: 673px;
+}
+
+.p_bula_lipidil {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  background: url(images/p_bula_lipidil.png);
+  left: 60px;
+  top: 38px;
+  width: 906px;
+  height: 673px;
+}
+
+.p_bula_duplostat {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  background: url(images/p_bula_duplostat.png);
+  left: 60px;
+  top: 38px;
+  width: 906px;
+  height: 673px;
+}
+
+.p_bula_synthroid {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  background: url(images/p_bula_synthroid.png);
+  left: 60px;
+  top: 38px;
+  width: 906px;
+  height: 673px;
+}
+
+.p_bula_ritmonorm {
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  position: absolute;
+  background: url(images/p_bula_ritmonorm.png);
+  left: 60px;
+  top: 38px;
+  width: 906px;
+  height: 673px;
+}
+
+.p_bula_hyalufem {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    background: url(images/p_bula_hyalufem.png);
+    left: 60px;
+    top: 38px;
+    width: 906px;
+    height: 673px;
+  }
+
+  .p_bula_zafolat {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    background: url(images/p_bula_zafolat.png);
+    left: 60px;
+    top: 38px;
+    width: 906px;
+    height: 673px;
+  }
+
+  
+  .p_bula_duphaston {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    position: absolute;
+    background: url(images/p_bula_duphaston.png);
+    left: 60px;
+    top: 38px;
+    width: 906px;
+    height: 673px;
+  }
 
 /* musculo esquelético */
 
